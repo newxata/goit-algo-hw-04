@@ -21,7 +21,6 @@ def get_cats_info(path):
     except FileNotFoundError:
         return f'Файл не знайдено!'
 
-    
 
 cats_info = get_cats_info("path/to/cats_file.txt")
 print(cats_info)
